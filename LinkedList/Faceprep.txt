@@ -1,0 +1,75 @@
+FACEPREP CLASSES NOTES
+
+Ps[i]= ps[i-1] + arr[i]
+Prefix sum formula is above 
+Steps to create a prefix sum:-
+1.	New Array creation.
+2.	Ps[0] = arr[0]
+3.	For(int i=1;i<n;i++){
+Ps[i] = Ps[i-1] + arr[i];
+}
+4.
+
+Binary Search tree NOTES
+
+Priority queue NOTES
+1. PQ vs Queue
+2. Implement through heap -> max heap, min heap
+3. Add ->Add / offer
+4. T0p-> peek 
+5 Return + remove(Poll)
+Important is Differnce between 4 and 5.
+
+Question pattern of Priority Queue
+1. Kth largest
+2. Kth smallest
+3. Continuous Update Smallest/ largest
+
+MaxHeap = two ways
+1. Primitive -> normal way
+2. Non Primitive-> Comparator
+
+hashing NOTES
+
+
+Optimization techniques
+1. Prefix sum -> Range sum
+2. Sliding Window -> Window of size K
+
+Question pattern
+1. Unique Element
+2. First OCcurance
+3. Max frequency 
+4. Equal 0s and 1s containing largest Subarray
+5. Max Subarray of Size k, with distinct Element-> S. W
+
+
+
+Graph NOTES
+Homework
+1. Adjacency matrix
+2. Adjacency List
+
+How to create a Graph
+1. Create a vector(grapgh of size(n), where n = no. of vertices
+2. create a vector separtely for each graph vertex using a for loop 
+like grapg[1].add(2);
+how ? => nlist Creation 
+for(int i =0;i< n;i++){
+    graph[i] = vector<int>vertex;
+}
+3. Add Adjacent vertices
+
+LC 200 NOTES
+1. First check for the continious '1' in one direction , if found any 0 , discard that direction and change it 
+2. Then after finding 0 in every direction , restart from the 1 and continue doing that using dfs , threby counting the total number of islands .
+3.
+
+LC 207 NOTES
+1. given prerequisites array in which data is given in the form of pair {ai, bi}.
+2. to access bi, you have to first access ai.
+3.
+
+TIME COMPLEXITY NOTES
+1. Factors always exists in pairs like if a is fact of n , then n/a is also fac of n
+
