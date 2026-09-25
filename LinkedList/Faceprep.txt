@@ -72,4 +72,5 @@ LC 207 NOTES
 
 TIME COMPLEXITY NOTES
 1. Factors always exists in pairs like if a is fact of n , then n/a is also fac of n
-
+[a,b] -- means include 
+(a,b) -- means exclude
